@@ -1,0 +1,26 @@
+package com.kyho.kyho;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Car car = new Car();
+    	car.drive();
+    	
+    	Bike bike = new Bike();
+    	bike.drive();
+    	
+    	Vehicle obj1 = new Car();
+    	Vehicle obj2 = new Bike();
+    	
+    	obj1.drive();
+    	obj2.drive();
+    	
+    	
+      
+    }
+}

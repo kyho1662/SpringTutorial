@@ -1,0 +1,7 @@
+package com.kyho.kyho;
+
+public interface Vehicle {
+	
+	public void drive();
+	
+}

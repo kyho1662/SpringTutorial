@@ -1,0 +1,11 @@
+package com.kyho.kyho;
+
+public class Car {
+	
+	public void drive() {
+		
+		System.out.println("Drive");
+	}
+	
+
+}
