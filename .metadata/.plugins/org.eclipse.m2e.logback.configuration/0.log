@@ -212,3 +212,5 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2020-04-16 19:00:22,519 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringTutorial\tuto\src\test\resources
 2020-04-16 19:00:30,634 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-04-16 19:00:30,635 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringTutorial\tuto\src\main\resources
+2020-04-16 19:00:30,635 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-04-16 19:00:30,636 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\SpringTutorial\tuto\src\test\resources
