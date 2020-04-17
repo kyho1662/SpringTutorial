@@ -12,24 +12,20 @@ public class App
     public static void main( String[] args )
     {
     	
-    	ApplicationContext context = new ClassPathXmlApplicationContext();
+    	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
     	
-    	Car car = new Car();
-    	car.drive();
-    	
-    	Bike bike = new Bike();
-    	bike.drive();
-    	
-    	Vehicle obj1 = new Car();
-    	Vehicle obj2 = new Bike();
-    	
-    	obj1.drive();
-    	obj2.drive();
+
     	
     	
-    	Vehicle obj3 = (Vehicle)context.getBean("Vehicle");
+    	Vehicle obj3 = (Vehicle)context.getBean("car");
     	obj3.drive();
     	
+//    	Tire t = (Tire)context.getBean("tire");
+//    	System.out.println(t);
+//    	
+    	
       
+    	
+    	
     }
 }
